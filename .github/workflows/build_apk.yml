@@ -21,8 +21,6 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          packages: platform-tools build-tools-34.0.0 android-34
 
       - name: Download and Setup Gradle 8.5
         run: |
